@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: http://{{ site_domain }}/sitemap.xml

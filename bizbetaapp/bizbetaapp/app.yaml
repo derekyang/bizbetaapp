@@ -1,0 +1,25 @@
+application: bizbetaapp
+version: 2
+runtime: python
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /userinfo
+  script: /blogpost/blogpost_userinfo.py
+
+- url: /blogpost.*
+  script: /blogpost/blogpost_post.py
+  
+- url: /test.*
+  script: guestbook6_templates.py
+
+- url: /about
+  script: page.py
+
+
+
+  
+  

@@ -1,1 +1,0 @@
-content_empty = 'Content should not be empty'
